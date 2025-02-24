@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Web avec Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">MonSite</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#accueil">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#apropos">À Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero mt-5">
+            <h1 class="display-4">Bienvenue sur MonSite</h1>
+            <p class="lead">Découvrez nos services incroyables</p>
+            <a href="#services" class="btn btn-light btn-lg">En savoir plus</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nos Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <div class="service-icon display-4 mb-3">💻</div>
+                            <h3 class="card-title">Développement Web</h3>
+                            <p class="card-text">Création de sites web modernes et réactifs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <div class="service-icon display-4 mb-3">📱</div>
+                            <h3 class="card-title">Applications Mobiles</h3>
+                            <p class="card-text">Développement d'applications iOS et Android.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <div class="service-icon display-4 mb-3">🎨</div>
+                            <h3 class="card-title">Design Graphique</h3>
+                            <p class="card-text">Conception de logos et d'identités visuelles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À Propos Section -->
+    <section id="apropos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">À Propos de Nous</h2>
+            <p class="text-center">Nous sommes une équipe passionnée de développeurs et de designers, prêts à transformer vos idées en réalité.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contactez-nous</h2>
+            <p class="text-center">Email: scheikhouna421@gmail.com</p>
+            <p class="text-center">Téléphone: +221 78 295 32 23</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
